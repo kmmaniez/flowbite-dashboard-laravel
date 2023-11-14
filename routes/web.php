@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tes', function () {
+Route::get('/admin', function () {
     return view('tes');
 });
 
